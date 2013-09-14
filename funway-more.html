@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv='content-type' content='text/html; charset=UTF-8' />
+  <title>Fun way... with wind!</title>
+</head>
+<style type='text/css'>
+	body {
+		overflow: hidden;
+	}
+	div {
+		position: absolute;
+		background-color: black;
+		width: 50px;
+		height: 50px;
+		border-radius: 100%;
+	}
+</style>
+<body>
+  <script type='text/javascript' charset='utf-8'>
+
+	function Vector(x, y) {
+		this.x = x;
+		this.y = y;
+	}
+
+	Vector.prototype.add = function(vector) {
+	  this.x += vector.x;
+	  this.y += vector.y;
+	};
+
+	function Ball(x, y) {
+		this.height = 50;
+		this.location = new Vector(100, 0);
+		this.velocity = new Vector(0, 0);
+		this.acceleration = new Vector(0, 0);
+		this.el = document.body.appendChild(document.createElement('div'));
+	}
+
+	var ball = new Ball(100, 0);
+	var gravity = new Vector(0, 0.1);
+	var wind = new Vector(0.01, 0);
+	var thermal = new Vector(-0.001, -0.01);
+
+	function Loop() {
+		ball.acceleration.add(gravity);
+		ball.acceleration.add(wind);
+		ball.acceleration.add(thermal);
+		ball.velocity.add(ball.acceleration);
+		ball.location.add(ball.velocity);
+		if (ball.location.y + ball.height > window.innerHeight) {
+			ball.location.y = window.innerHeight - ball.height;
+			ball.velocity.y *= -0.9
+		}
+		ball.acceleration = new Vector(0, 0);
+		ball.el.style.cssText = 'left: ' + ball.location.x + 'px; top: ' + ball.location.y + 'px;';
+		window.webkitRequestAnimationFrame(Loop);
+	}
+
+	Loop();
+
+  </script>
+</body>
+</html>
