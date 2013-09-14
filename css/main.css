@@ -29,29 +29,29 @@ a.notes-headline, a.notes-headline:visited {color: #444;}
 .link-more {color: #ff4500;}
 .container-feature {display: inline-block;vertical-align: top;margin-right: 10px;width: 318px;border: 1px solid #aaa;background: #eee;margin-bottom: 1em;text-decoration: none;}
 .feature-img {width: 318px;height: 318px;background: #ccc;}
-.feature-img.alive {background: #000 url('/img/vehicle1_ALIVE.png');}
-.feature-img.coward {background: #000 url('/img/vehicle2a_COWARD.png');}
-.feature-img.aggressive {background: #000 url('/img/vehicle2b_AGGRESSIVE.png');}
-.feature-img.loves {background: #000 url('/img/vehicle3a_LOVES.png');}
-.feature-img.explorer {background: #000 url('/img/vehicle3b_EXPLORER.png');}
-.feature-img.values {background: #000 url('/img/vehicle3c_VALUES.png');}
-.feature-img.flap {background: #000 url('/img/flocking1_FLAP.png');}
-.feature-img.spin {background: #000 url('/img/flocking2_SPIN.png');}
-.feature-img.roll {background: #000 url('/img/flocking3_ROLL.png');}
-.feature-img.hop {background: #000 url('/img/motion1_HOP.jpg') top left;background-size: 318px 318px;}
-.feature-img.dive {background: #000 url('/img/motion2_DIVE.jpg') top left;background-size: 318px 318px;}
-.feature-img.inline {background: #000 url('/img/00inline.png') top left;background-size: 318px 318px;}
-.feature-img.objpooling {background: #000 url('/img/01objpooling.png') top left;background-size: 318px 318px;}
-.feature-img.varycolor {background: #000 url('/img/02varycolor.png') top left;background-size: 318px 318px;}
-.feature-img.varysize {background: #000 url('/img/03varysize.png') top left;background-size: 318px 318px;}
-.feature-img.varyspeed {background: #000 url('/img/04varyspeed.png') top left;background-size: 318px 318px;}
-.feature-img.mouseforce {background: #000 url('/img/05mouseforce.png') top left;background-size: 318px 318px;}
-.feature-img.girdlemouse {background: #000 url('/img/girdle-mouse.png') top left;background-size: 318px 318px;}
-.feature-img.webaudioapi {background: #000 url('/img/webaudioapi.png') top left;background-size: 318px 318px;}
-.feature-img.floraaudiotone {background: #000 url('/img/webaudioflora01.png') top left;background-size: 318px 318px;}
-.feature-img.floraaudiolightning {background: #000 url('/img/webaudioflora02.png') top left;background-size: 318px 318px;}
-.feature-img.jumper {background: #000 url('/img/jumper01.png') top left;background-size: 318px 318px;}
-.feature-img.girdleleap {background: #000 url('/img/girdle-leap.png') top left;background-size: 318px 318px;}
+.feature-img.alive {background: #000 url('../img/vehicle1_ALIVE.png');}
+.feature-img.coward {background: #000 url('../img/vehicle2a_COWARD.png');}
+.feature-img.aggressive {background: #000 url('../img/vehicle2b_AGGRESSIVE.png');}
+.feature-img.loves {background: #000 url('../img/vehicle3a_LOVES.png');}
+.feature-img.explorer {background: #000 url('../img/vehicle3b_EXPLORER.png');}
+.feature-img.values {background: #000 url('../img/vehicle3c_VALUES.png');}
+.feature-img.flap {background: #000 url('../img/flocking1_FLAP.png');}
+.feature-img.spin {background: #000 url('../img/flocking2_SPIN.png');}
+.feature-img.roll {background: #000 url('../img/flocking3_ROLL.png');}
+.feature-img.hop {background: #000 url('../img/motion1_HOP.jpg') top left;background-size: 318px 318px;}
+.feature-img.dive {background: #000 url('../img/motion2_DIVE.jpg') top left;background-size: 318px 318px;}
+.feature-img.inline {background: #000 url('../img/00inline.png') top left;background-size: 318px 318px;}
+.feature-img.objpooling {background: #000 url('../img/01objpooling.png') top left;background-size: 318px 318px;}
+.feature-img.varycolor {background: #000 url('../img/02varycolor.png') top left;background-size: 318px 318px;}
+.feature-img.varysize {background: #000 url('../img/03varysize.png') top left;background-size: 318px 318px;}
+.feature-img.varyspeed {background: #000 url('../img/04varyspeed.png') top left;background-size: 318px 318px;}
+.feature-img.mouseforce {background: #000 url('../img/05mouseforce.png') top left;background-size: 318px 318px;}
+.feature-img.girdlemouse {background: #000 url('../img/girdle-mouse.png') top left;background-size: 318px 318px;}
+.feature-img.webaudioapi {background: #000 url('../img/webaudioapi.png') top left;background-size: 318px 318px;}
+.feature-img.floraaudiotone {background: #000 url('../img/webaudioflora01.png') top left;background-size: 318px 318px;}
+.feature-img.floraaudiolightning {background: #000 url('../img/webaudioflora02.png') top left;background-size: 318px 318px;}
+.feature-img.jumper {background: #000 url('../img/jumper01.png') top left;background-size: 318px 318px;}
+.feature-img.girdleleap {background: #000 url('../img/girdle-leap.png') top left;background-size: 318px 318px;}
 .feature-details {background: #fff;font-size: .65em;border-top: 1px solid #ddd;}
 .feature-details-inner {padding: 1em;}
 .container-behavior, .container-vehicle-description {display: inline-block;vertical-align: middle;}
