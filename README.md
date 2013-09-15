@@ -1,7 +1,7 @@
 Natural Simulations in a Web Browser
 ======
 
-Examples from my talk on creating natural simulations in a web browser.
+Examples from my talk on creating natural simulations in a web browser. View them in action at http://foldi.github.io/Natural-Simulations-in-a-Browser/.
 
 The examples pull the following projects.
 
