@@ -1,7 +1,7 @@
-Natural Systems in a Web Browser
+Natural Simulations in a Web Browser
 ======
 
-Examples from my talk on creating natural systems in a web browser.
+Examples from my talk on creating natural simulations in a web browser.
 
 The examples pull the following projects.
 
